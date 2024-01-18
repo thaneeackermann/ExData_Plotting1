@@ -24,5 +24,5 @@ plot(data$Datetime, data$Global_active_power, type = "l", xlab = "", ylab = "Glo
 # Create a new x axis with the labels "Thu", "Fri" and "Sat"
 axis(side = 1, at = c(as.numeric(data$Datetime[1]), as.numeric(data$Datetime[1441]),as.numeric(data$Datetime[2880])), labels = c("Thu", "Fri", "Sat"))
 
-# Save it to "plot2.png" and close device
+# Save it to the PNG file and close device
 dev.off()
